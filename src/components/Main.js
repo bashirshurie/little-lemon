@@ -1,14 +1,11 @@
 import BookingForm from "./BookingForm";
 
-function Main() {
+export default function Main() {
   return (
-    <main className="main">
-      <section className="booking-section">
-        <h2>Reserve a Table</h2>
+    <main>
+      <section>
         <BookingForm />
       </section>
     </main>
   );
 }
-
-export default Main;
